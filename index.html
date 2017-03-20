@@ -1,6 +1,52 @@
 <html>
   <head>
     <title> Scientific Discoveries </title>
+    <script type="text/javascript">
+	var imageArray = new Array ();
+	var captionArray = new Array ();
+
+	// Generate array of images and array of captions for slideshow
+	imageArray[0] = document.createElement("IMG");
+	imageArray[0].src = "./alcohol.jpgg";
+	captionArray[0] = "";
+
+	imageArray[1] = document.createElement("IMG");
+	imageArray[1].src = "./bacteria.jpeg";
+	captionArray[1] = "";
+
+	imageArray[2] = document.createElement("IMG");
+	imageArray[2].src = "./flowerOvary.jpg";
+	captionArray[2] = "";
+
+	imageArray[3] = document.createElement("IMG");
+	imageArray[3].src = "./fluidDyn.jpg";
+	captionArray[3] = "";
+
+	imageArray[4] = document.createElement("IMG");
+	imageArray[4].src = "./fly.jpg";
+	captionArray[4] = "";
+
+	imageArray[5] = document.createElement("IMG");
+	imageArray[5].src = "./nebula.jpg";
+	captionArray[5] = "";
+
+	imageArray[6] = document.createElement("IMG");
+	imageArray[6].src = "./particleTrack.jpg";
+	captionArray[6] = "";
+
+	imageArray[7] = document.createElement("IMG");
+	imageArray[7].src = "./plant.jpg";
+	captionArray[7] = "";
+	
+	imageArray[8] = document.createElement("IMG");
+	imageArray[8].src = "./sunflower.jpg";
+	captionArray[8] = "";
+
+	imageArray[9] = document.createElement("IMG");
+	imageArray[9].src = "./veilNebula.jpg";
+	captionArray[9] = "";
+
+</script>
   </head>
   <body>
     <h1> Science BOIS!!! </h1>
@@ -15,6 +61,33 @@
 	  <p>
 	    You wanna learn bout science bruh? You come to da right place.
 	  </p>
+	</div>
+	<div>
+		<script type="text/javascript">
+	// Calls changeImg () to run every 3 seconds
+
+	var indx = 0;
+	function changeImg() {
+		if (indx <= 9) {
+			document.images.image.src = imageArray[indx].src;
+			//document.getElementById("caption").innerHTML = captionArray[indx];
+		}
+
+		else {
+			indx = 0;
+			document.images.image.src = imageArray[indx].src;
+			//document.getElementById("caption").innerHTML = captionArray[indx];	
+		}
+
+		indx++;
+	}
+	
+
+	setInterval(changeImg, 3000);
+
+	changeImg();
+
+</script>
 	</div>
   </body>
 </html>

@@ -2,54 +2,61 @@
   <head>
     <title> Scientific Discoveries </title>
     <script type="text/javascript">
-	var imageArray = new Array ();
-	var captionArray = new Array ();
+		var imageArray = new Array ();
+		var captionArray = new Array ();
 
-	// Generate array of images and array of captions for slideshow
-	imageArray[0] = document.createElement("IMG");
-	imageArray[0].src = "./alcohol.jpg";
-	captionArray[0] = "";
+		// Generate array of images and array of captions for slideshow
+		imageArray[1] = document.createElement("IMG");
+		imageArray[1].src = "./alcohol.jpg";
+		captionArray[1] = "";
 
-	imageArray[1] = document.createElement("IMG");
-	imageArray[1].src = "./bacteria.jpeg";
-	captionArray[1] = "";
+		imageArray[0] = document.createElement("IMG");
+		imageArray[0].src = "./bacteria.jpeg";
+		captionArray[0] = "";
 
-	imageArray[2] = document.createElement("IMG");
-	imageArray[2].src = "./flowerOvary.jpg";
-	captionArray[2] = "";
+		imageArray[2] = document.createElement("IMG");
+		imageArray[2].src = "./flowerOvary.jpg";
+		captionArray[2] = "";
 
-	imageArray[3] = document.createElement("IMG");
-	imageArray[3].src = "./fluidDyn.jpg";
-	captionArray[3] = "";
+		imageArray[3] = document.createElement("IMG");
+		imageArray[3].src = "./fluidDyn.jpg";
+		captionArray[3] = "";
 
-	imageArray[4] = document.createElement("IMG");
-	imageArray[4].src = "./fly.jpg";
-	captionArray[4] = "";
+		imageArray[4] = document.createElement("IMG");
+		imageArray[4].src = "./fly.jpg";
+		captionArray[4] = "";
 
-	imageArray[5] = document.createElement("IMG");
-	imageArray[5].src = "./nebula.jpg";
-	captionArray[5] = "";
+		imageArray[5] = document.createElement("IMG");
+		imageArray[5].src = "./nebula.jpg";
+		captionArray[5] = "";
 
-	imageArray[6] = document.createElement("IMG");
-	imageArray[6].src = "./particleTrack.jpg";
-	captionArray[6] = "";
+		imageArray[6] = document.createElement("IMG");
+		imageArray[6].src = "./particleTrack.jpg";
+		captionArray[6] = "";
 
-	imageArray[7] = document.createElement("IMG");
-	imageArray[7].src = "./plant.jpg";
-	captionArray[7] = "";
-	
-	imageArray[8] = document.createElement("IMG");
-	imageArray[8].src = "./sunflower.jpg";
-	captionArray[8] = "";
+		imageArray[7] = document.createElement("IMG");
+		imageArray[7].src = "./plant.jpg";
+		captionArray[7] = "";
+		
+		imageArray[8] = document.createElement("IMG");
+		imageArray[8].src = "./sunflower.jpg";
+		captionArray[8] = "";
 
-	imageArray[9] = document.createElement("IMG");
-	imageArray[9].src = "./veilNebula.jpeg";
-	captionArray[9] = "";
+		imageArray[9] = document.createElement("IMG");
+		imageArray[9].src = "./veilNebula.jpeg";
+		captionArray[9] = "";
 
-</script>
+	</script>
+  	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+
   </head>
+
+
+
   <body>
-    <h1> Science BOIS!!! </h1>
+  <div class="center">
+    <h1 class="title"> Science Bois </h1>
+
 	<div id="navbar">
 	  <a href="./index.html"> Home </a> 
 	  <a href="./about.html"> About </a> 
@@ -57,16 +64,9 @@
 	  <a href="./scientistmodel.html"> Scientists </a> 
 	  <a href="./theorymodel.html"> Theories/Discoveries </a>
 	</div>
-	<div id="article">
-	  <p>
-	    You wanna learn bout science bruh? You come to da right place.
-	  </p>
-	</div>
 
-	<img id="image" src="" alt="Science" width="300" height="250"/>
-
-	<div>
-		<script type="text/javascript">
+	<img id="image" src="" alt="Science" width="600" height="500"/>
+	<script type="text/javascript">
 	// Calls changeImg () to run every 3 seconds
 
 	var indx = 0;
@@ -90,7 +90,7 @@
 
 	changeImg();
 
-</script>
+	</script>
 	</div>
   </body>
 </html>

@@ -6,13 +6,13 @@
 		var captionArray = new Array ();
 
 		// Generate array of images and array of captions for slideshow
-		imageArray[0] = document.createElement("IMG");
-		imageArray[0].src = "./alcohol.jpg";
-		captionArray[0] = "";
-
 		imageArray[1] = document.createElement("IMG");
-		imageArray[1].src = "./bacteria.jpeg";
+		imageArray[1].src = "./alcohol.jpg";
 		captionArray[1] = "";
+
+		imageArray[0] = document.createElement("IMG");
+		imageArray[0].src = "./bacteria.jpeg";
+		captionArray[0] = "";
 
 		imageArray[2] = document.createElement("IMG");
 		imageArray[2].src = "./flowerOvary.jpg";
@@ -45,13 +45,24 @@
 		imageArray[9] = document.createElement("IMG");
 		imageArray[9].src = "./veilNebula.jpeg";
 		captionArray[9] = "";
+<<<<<<< HEAD
 	</script>
 	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
 
+=======
+
+	</script>
+  	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+>>>>>>> Dev
 
   </head>
+
+
+
   <body>
-    <h1> Science BOIS!!! </h1>
+  <div class="center">
+    <h1 class="title"> Science Bois </h1>
+
 	<div id="navbar">
 	  <a href="./index.html"> Home </a> 
 	  <a href="./about.html"> About </a> 
@@ -59,16 +70,9 @@
 	  <a href="./scientistmodel.html"> Scientists </a> 
 	  <a href="./theorymodel.html"> Theories/Discoveries </a>
 	</div>
-	<div id="article">
-	  <p>
-	    You wanna learn bout science bruh? You come to da right place.
-	  </p>
-	</div>
 
-	<img id="image" src="" alt="Science" width="300" height="250"/>
-
-	<div>
-		<script type="text/javascript">
+	<img id="image" src="" alt="Science" width="600" height="500"/>
+	<script type="text/javascript">
 	// Calls changeImg () to run every 3 seconds
 
 	var indx = 0;
@@ -92,7 +96,7 @@
 
 	changeImg();
 
-</script>
+	</script>
 	</div>
   </body>
 </html>

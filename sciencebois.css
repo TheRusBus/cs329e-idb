@@ -9,7 +9,14 @@ html {
     margin: auto;
     padding: 10px;
     text-align: center;
+}
 
+.table {
+}
+
+table {
+	color: #f4efef;
+	border-color: white;
 }
 
 #navbar {

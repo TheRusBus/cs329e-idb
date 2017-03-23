@@ -1,6 +1,7 @@
 html {
 	background-color: #1c1c1e;
 	color: #f4efef;
+	font-family: Arial;
 }
 
 p{
@@ -32,13 +33,25 @@ a:visited {
     padding: 10px;
     text-align: center;
 }
+.scientist {
+	width: 150px;
+	height: 150px;
+}
 
-.table {
+.headings {
+	height: 50px;
+	color: #c5ced6;
 }
 
 table {
+	margin: 20px auto;
+	width: 95%;
 	color: #f4efef;
-	border-color: white;
+	border: #505151 0.5px solid;
+
+}
+.instance:hover {
+	background-color: #505151;
 }
 
 #navbar {

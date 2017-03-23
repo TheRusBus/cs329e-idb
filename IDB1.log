@@ -1,0 +1,444 @@
+commit 2092184ea9296cd38c19f4329a7de27b9754047e
+Merge: 1dd69fa 9b134b1
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Thu Mar 23 15:38:51 2017 -0500
+
+    Merge branch 'master' of https://github.com/TheRusBus/cs329e-idb
+
+commit 1dd69fa6caa82bfb5ff727abaa76581648ac8ce2
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Thu Mar 23 15:38:36 2017 -0500
+
+    added bio info
+
+commit 9b134b1c49b5dab9e422b27781cfa461aedd2735
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Thu Mar 23 15:37:40 2017 -0500
+
+    Added more information to the about page.
+
+commit 5fd2dc31808c3bb9f9cc08623ad9d67865cc50eb
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Thu Mar 23 15:15:26 2017 -0500
+
+    Edited the about page.
+
+commit cd033fe59fe2bc69569423b7a522a0e2da9ce65e
+Merge: 6a40d61 bbf93ec
+Author: neginkrahbar <neginkrahbar@utexas.edu>
+Date:   Thu Mar 23 13:19:43 2017 -0500
+
+    Merge pull request #19 from TheRusBus/Dev
+    
+    Changed font. Added to about.
+
+commit bbf93ec09337502c8ec1961c387d2a0ee757bc5d
+Author: Negin Rahbar <Negin@wireless-10-145-137-161.public.utexas.edu>
+Date:   Thu Mar 23 13:16:18 2017 -0500
+
+    Changed font. Added to about.
+
+commit 6a40d612767214200682c2458c6846c1a0aa1461
+Merge: 4b39eaf a92e61e
+Author: neginkrahbar <neginkrahbar@utexas.edu>
+Date:   Thu Mar 23 13:02:08 2017 -0500
+
+    Merge pull request #18 from TheRusBus/Dev
+    
+    Styling added to Main Page
+
+commit a92e61e98da1bfcaf27f8cacb0cda76941947453
+Author: Negin Rahbar <Negin@wireless-10-145-137-161.public.utexas.edu>
+Date:   Thu Mar 23 13:01:35 2017 -0500
+
+    Styling added to Main Page
+
+commit 4b39eaf19c2dd038b9af1f018085cb6c2281d962
+Merge: 372bfd2 b9792e6
+Author: neginkrahbar <neginkrahbar@utexas.edu>
+Date:   Thu Mar 23 09:34:06 2017 -0500
+
+    Merge pull request #17 from TheRusBus/Dev
+    
+    Styled About
+
+commit b9792e681d86bfedf4ee4956b1aa48ef13854bcc
+Author: Negin Rahbar <Negin@Negins-MacBook-Pro.local>
+Date:   Thu Mar 23 09:32:13 2017 -0500
+
+    Styled About
+
+commit 372bfd2a4038665eb395b545234448476807c230
+Author: Negin Rahbar <Negin@Negins-MacBook-Pro.local>
+Date:   Thu Mar 23 07:16:25 2017 -0500
+
+    Centered and frearranged top section of pages
+
+commit 00aa369b0451f1704eb4381ba0dc69b0a202f932
+Merge: 92cd47b 7b971f9
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Wed Mar 22 15:56:50 2017 -0500
+
+    Merge branch 'master' of https://github.com/TheRusBus/cs329e-idb
+    Fixed title of About page
+
+commit 92cd47b36db680cd9ffa007a1f375bb8cdbdb8ec
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Wed Mar 22 15:56:46 2017 -0500
+
+    Fixed title of about page.
+
+commit 7b971f91f13acf388642beec85813667126724b2
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 22 15:40:56 2017 -0500
+
+    adjusted bio picture size
+
+commit 8dd2ee77e1cbf8f35b954439fcc6e200f5d21512
+Merge: 933e1c9 7ddec3c
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 22 15:31:53 2017 -0500
+
+    Merge branch 'master' of https://github.com/TheRusBus/cs329e-idb
+
+commit 933e1c966a6c7cd4453b34b5565a2c3414671791
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 22 15:31:34 2017 -0500
+
+    added tools info
+
+commit 7ddec3cc6b9d3655e795f38c6483a6b57ec4e16f
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Wed Mar 22 15:31:18 2017 -0500
+
+    Changed about page, fixed a typo on scientist page
+
+commit 88aadff507db68cb542d2e5cc492f854e92b1790
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Wed Mar 22 15:23:13 2017 -0500
+
+    Finished linking pages and added style sheet to all pages.
+
+commit d2fc3ddc55fa6a2d5fd599707dd5fc432259e4e2
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 22 15:16:58 2017 -0500
+
+    added bio info
+
+commit 80991ecf4b47fab6b3975e877483ea3653566c5f
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Wed Mar 22 14:56:27 2017 -0500
+
+    Added links between pages and updated about page.
+
+commit dd8469de7192976867e31bc7bc9cfac35f0b0546
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Tue Mar 21 19:18:14 2017 -0500
+
+    Added my information to the about page
+
+commit 84bbbca7a5cdc87d46ebd834ced2783b0f499da3
+Author: Negin Rahbar <Negin@Negins-MacBook-Pro.local>
+Date:   Tue Mar 21 17:54:28 2017 -0500
+
+    temp changed text color
+
+commit 33f465e5ad64a808291d4dcf5e5c246509bc13d9
+Author: Negin Rahbar <Negin@Negins-MacBook-Pro.local>
+Date:   Tue Mar 21 17:53:08 2017 -0500
+
+    temp changed text color
+
+commit 4b966eed51cebc85414a8ce2ef0213528438f8e3
+Merge: b439c7c 3995c9a
+Author: oolubeko <tomiolubeko@yahoo.com>
+Date:   Tue Mar 21 13:39:55 2017 -0500
+
+    Merge branch 'master' of https://github.com/TheRusBus/cs329e-idb
+
+commit b439c7cd20171ce33bc90e81c9863241d5c9d917
+Author: oolubeko <tomiolubeko@yahoo.com>
+Date:   Tue Mar 21 13:39:26 2017 -0500
+
+    Finished theory table and html pages
+
+commit 3995c9abbf306da2c56a9a480bd4b7b1a6ee64b5
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Tue Mar 21 10:11:42 2017 -0500
+
+    Added Einstein and his link
+
+commit 5c78f426ca7c4baa64f2eb6f3e8cdc8659b72f07
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:57:02 2017 -0500
+
+    started css on fields.html
+
+commit 72bbd926e7fd4d895266be46e0ab9c1b8bf9e0c5
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:42:32 2017 -0500
+
+    linked css to all files so far
+
+commit 50edabf4dc4f70a740d1dca3d47df5e0c098f3a9
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:37:52 2017 -0500
+
+    removed git error stuff on index.html
+
+commit d977cb0521b878948dd9db5be845dbae5e8be301
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:34:54 2017 -0500
+
+    Image references fixed
+
+commit 6ad94172d693f36884bd6453d5a4385ab2209ecc
+Merge: cf8af49 67523aa
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:28:46 2017 -0500
+
+    Merge branch 'master' of https://github.com/TheRusBus/cs329e-idb
+    Index.html files diverged
+
+commit cf8af49bb3135680361f2214a3d9c52758c45c49
+Merge: 3dbdfde b96987c
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:27:58 2017 -0500
+
+    Resolved conflict in index.html
+
+commit 67523aa05326f8e4a3ad8dbe25abd3c7f56ed152
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Mon Mar 20 16:25:49 2017 -0500
+
+    Added darwin and a link to his page
+
+commit b96987c5b3e469efdd73569b7c8acaf4a2712580
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 16:21:31 2017 -0500
+
+    Splash page draft 1
+
+commit 3dbdfdee35eaf28bd6dc9d957523199783941164
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Mon Mar 20 16:10:09 2017 -0500
+
+    Fixed links in scientist model
+
+commit c1e70b5f2a37043b4c8f220ee70d036278c8a08e
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Mon Mar 20 16:08:52 2017 -0500
+
+    Added links to model
+
+commit e4b9bc4ba6807cd4512efc1c50a0947fe121bbe8
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Mon Mar 20 16:06:07 2017 -0500
+
+    Fixed typos and added Darwin's picture
+
+commit 324143d21ab2585562a4bd6730b18b6852e936aa
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Mon Mar 20 16:03:58 2017 -0500
+
+    Linked newton to his page and filled it out.
+
+commit 7dbe44dd00825d77946db70ba2f1c8b7c0abbcd4
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Mon Mar 20 15:49:32 2017 -0500
+
+    Started on Newton's personal page
+
+commit b7b89228876008f889286c1a9f08d42e91f639c0
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 15:20:49 2017 -0500
+
+    Created css file
+
+commit cc4b17a0037f8d8d49f51684634407fea873ff0e
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 15:17:00 2017 -0500
+
+    css
+
+commit ac4feca159241c6d216713a31926d0a5c8383e1b
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 15:12:53 2017 -0500
+
+    fixed image ref
+
+commit c960592c57dced04630ecb66d8e0436aa73d2b2c
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 14:46:06 2017 -0500
+
+    jpg not jpgg
+
+commit bf40669afddcbaf2060b21babccbe65206cb1903
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 14:44:32 2017 -0500
+
+    Image object added to home page
+
+commit 14a1b164f64a84c6972900da484d520d97d0a788
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 14:37:20 2017 -0500
+
+    Image generator on Home
+
+commit 349b69222dd8c98b4eecd7fe3aab3cc92e90f27f
+Author: Negin Rahbar <Negin@wireless-10-147-232-171.public.utexas.edu>
+Date:   Mon Mar 20 14:22:21 2017 -0500
+
+    added git links to about
+
+commit ba115ae797d7a13d730755bad66ad2509550e204
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Thu Mar 16 15:48:23 2017 -0500
+
+    Added and linked pages for the scientific fields.
+
+commit 5febd1e81ed46d38d0e893d4a6adfcf9a582816e
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Thu Mar 9 14:59:44 2017 -0600
+
+    Fixed a broken link, finishing the Scientist model Fixes #3
+
+commit 8e8d79e4481aa684d5c71eeb6659eacb88eb2223
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Thu Mar 9 14:48:42 2017 -0600
+
+    Added embedded images to all scientists #6
+
+commit 7be6819f02812724aacaa5ae4d4e1f2086153227
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Thu Mar 9 14:45:32 2017 -0600
+
+    Testing image embedding
+
+commit 399a32c7aae55148228060cd20bf62674b36100c
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Thu Mar 9 14:44:16 2017 -0600
+
+    Added photos to repo
+
+commit e7e2984e66cac2cb81adc3c7051cc1ba60e936d8
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Thu Mar 9 14:36:42 2017 -0600
+
+    Added more info to the scientists page
+
+commit 7aaab38f6388a75d6bde47356eac90c6ad1b62cb
+Author: Negin Rahbar <Negin@wireless-10-147-142-134.public.utexas.edu>
+Date:   Thu Mar 9 14:15:41 2017 -0600
+
+    Fixed nav bar link on about.html
+
+commit 204266f1ca657439a4d5e12ccb8482eeb56b713b
+Author: Negin Rahbar <Negin@wireless-10-147-142-134.public.utexas.edu>
+Date:   Thu Mar 9 14:12:31 2017 -0600
+
+    Fixed nav bar links in all pages
+
+commit 91a7c415e09bd8cb13b4c18e317a26b44f470b30
+Author: Negin Rahbar <Negin@wireless-10-147-142-134.public.utexas.edu>
+Date:   Thu Mar 9 14:07:34 2017 -0600
+
+    Fixed Scientific Fields link
+
+commit 7f695214ed64f0e185bc456bfa74cfe51131c231
+Author: Avery Pawelek <averypawelek4@gmail.com>
+Date:   Wed Mar 8 16:05:47 2017 -0600
+
+    Added data to the scientific fields table.
+
+commit 676f9c962d6338b31c1ec4c2eb6d035b1897e494
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Wed Mar 8 15:50:11 2017 -0600
+
+    Removed an exra <td></td>
+
+commit dec6708e4a2034b3e8ed853f7cf5455f460002d7
+Author: dccool <therealanime@cs.utexas.edu>
+Date:   Wed Mar 8 15:48:21 2017 -0600
+
+    Filled in Some of the scientists table.
+
+commit a18cf00840bda9d79cb68c6a6aec9c7aaf87fd58
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 15:03:49 2017 -0600
+
+    added scientist and theory models
+
+commit a7a5a36f959e48c63a844ed093cbed208020a52c
+Merge: c3a266d 9f76f1b
+Author: Negin Rahbar <Negin@wireless-10-147-142-134.public.utexas.edu>
+Date:   Wed Mar 8 14:53:59 2017 -0600
+
+    diverged
+
+commit c3a266dc2477fe24fc44664b0d99ce3136244470
+Author: Negin Rahbar <Negin@wireless-10-147-142-134.public.utexas.edu>
+Date:   Wed Mar 8 14:53:34 2017 -0600
+
+    Updated model template file
+
+commit 9f76f1b2a071668639038f5840410f291e8442e5
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 14:50:18 2017 -0600
+
+    About page template
+
+commit 1353a310fc9bb138b501ac25b5ba1739ec0a0dc0
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 14:28:11 2017 -0600
+
+    added about page
+
+commit cd2e89378f9958d90a1286cdc1f2968a5ac2de56
+Author: Negin Rahbar <Negin@wireless-10-147-142-134.public.utexas.edu>
+Date:   Wed Mar 8 14:18:36 2017 -0600
+
+    Added model template file
+
+commit d986b86b9ec68a5ae99af81439a3c80d56eea8d0
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 14:15:54 2017 -0600
+
+    Added navbar
+
+commit f3cfc13776b055d6da2a1dd75fd762d5494b2c32
+Author: neginkrahbar <neginkrahbar@utexas.edu>
+Date:   Wed Mar 8 14:11:36 2017 -0600
+
+    Outline text file added
+
+commit e60fe9c506d0fb682088b9db0ea296f3cdf2fdc1
+Merge: 5b7d46a f3475be
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 14:01:45 2017 -0600
+
+    Merge branch 'master' of https://github.com/TheRusBus/cs329e-idb
+
+commit 5b7d46a6716c9b66439b0a4486d690e9562c64b9
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 14:01:18 2017 -0600
+
+    Homepage commit
+
+commit f3475bed56293b60d8614e5f930bd13d2eb4977b
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Wed Mar 8 12:06:40 2017 -0600
+
+    Create CNAME
+
+commit 46a17cbe7ba7ef611d3d5d4f8b7d7794a4ff628c
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Tue Mar 7 19:56:37 2017 -0600
+
+    initial commit
+
+commit 79521482d863f269a0accf2c767db4ff30648dbd
+Author: TheRusBus <rusty.gates@utexas.edu>
+Date:   Tue Mar 7 19:44:10 2017 -0600
+
+    Initial commit

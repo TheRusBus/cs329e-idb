@@ -7,6 +7,23 @@ p{
 	color: #f4efef;
 }
 
+
+a:link {
+	text-decoration: none;
+	color: #8eb5f2;
+}
+
+a:hover {
+	text-decoration: underline;
+	size: 10px;
+	color: #9db5db;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #8eb5f2;
+}
+
 .title {
 	color: white;
 }

@@ -84,7 +84,7 @@ a:visited {
 
 
 
-#memb1 {
+.memb1 {
 	padding-left: 300px;
 	width: 20%;
 	float: left;
@@ -92,28 +92,28 @@ a:visited {
 
 }
 
-#memb2 {
+.memb2 {
 	padding-right: 150px;
 	width: 30%;
 	float: right;
 	min-width: 300px;
 }
 
-#memb3 {
+.memb3 {
 	padding-left: 300px;
 	width: 55%;
 	float: left;
 	min-width: 300px;
 }
 
-#memb4 {
+.memb4 {
 	padding-right: 150px;
 	width: 30%;
 	float: right;
 	min-width: 300px;
 }
 
-#memb5 {
+.memb5 {
 	padding-left: 300px;
 	width: 20%;
 	float: left;
@@ -121,18 +121,18 @@ a:visited {
 
 } 
 
-#st {
+.st {
 	position: absolute;
 	padding-top: 1600px;
 	padding-left: 200px;
 }
 
-#stats a:link {
+.stats a:link {
 	padding-left: 5px;
 	padding-right: 5px;
 }
 	
-#image {
+.myimage {
 	position: relative;
 	top: 40px;
 }

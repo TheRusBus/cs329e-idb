@@ -1,9 +1,15 @@
 <!DOCTYPE html>
+<div class="myhtml">
 <html>
 <head>
 	<title> Theories/Discoveries </title>
-  	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
-  	<script type="text/javascript" src="./sort.js"></script>
+  	
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+    <script type="text/javascript" src="./sort.js"></script>
 </head>
 
 
@@ -15,7 +21,7 @@
 <h1> Theories/Discoveries </h1>
 </div>
 
-<div id="navbar">
+<div class="mynavbar">
 	  <a href="./index.html"> Home </a> 
 	  <a href="./about.html"> About </a> 
 	  <a href="./fields.html"> Scientific Fields </a> 
@@ -25,14 +31,14 @@
 </div>
 
 <div>
-<table rules="all" id="table">
-	<tr class="headings">
-		<th onclick="sortTable(0)">Theory Name</th>
-		<th onclick="sortTable(1)">Scientific Field</th>
-		<th onclick="sortTable(2)">Discoverer</th>
-		<th onclick="sortTable(3)">Short Description</th>
-		<th onclick="sortTable(4)">Date Developed</th>
-		<th onclick="sortTable(5)">Impacts/Applications</th>
+<table rules="all" class="mytable" id="table">
+	<tr>
+		<th onclick="sortTable(0)" class="myheadings">Theory Name</th>
+		<th onclick="sortTable(1)" class="myheadings">Scientific Field</th>
+		<th onclick="sortTable(2)" class="myheadings">Discoverer</th>
+		<th onclick="sortTable(3)" class="myheadings">Short Description</th>
+		<th onclick="sortTable(4)" class="myheadings">Date Developed</th>
+		<th onclick="sortTable(5)" class="myheadings">Impacts/Applications</th>
 	</tr>
 	<tr class="instance">
 		<td><a href = "./theoryCalculus.html"> Calculus </a></td>
@@ -70,3 +76,4 @@
 </div>
 </body>
 </html>
+</div>

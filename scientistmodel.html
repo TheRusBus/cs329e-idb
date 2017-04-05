@@ -1,20 +1,25 @@
 <!DOCTYPE html>
+<div class="myhtml">
 <html>
 <head>
 	<title> Scientists </title>
-  	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
-  	<script type="text/javascript" src="./sort.js"></script>
+	
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+    <script type="text/javascript" src="./sort.js"></script>
 </head>
 
 
 <body>
 <div class="center">
 
-<div>
 <h1> Scientists </h1>
-<div>
 
-<div id="navbar">
+
+<div class ="mynavbar">
 	  <a href="./index.html"> Home </a> 
 	  <a href="./about.html"> About </a> 
 	  <a href="./fields.html"> Scientific Fields </a> 
@@ -23,9 +28,8 @@
 </div>
 </div>
 
-<div>
-<table rules="all" id="table">
-	<tr class="headings">
+<table rules="all" class="mytable" id="table">
+	<tr>
 		<th>Picture</th>
 		<th onclick="sortTable(1)"> Name </th>
 		<th onclick="sortTable(2)"> DOB and DOD </th>
@@ -96,6 +100,7 @@
  		<td> Born in Pisa, Italy. Studied at University of Pisa. </td>
 	</tr>
 </table>
-</div>
+
 </body>
 </html>
+</div>

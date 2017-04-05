@@ -3,6 +3,7 @@
 <head>
 	<title> Scientists </title>
   	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+  	<script type="text/javascript" src="./sort.js"></script>
 </head>
 
 
@@ -23,46 +24,76 @@
 </div>
 
 <div>
-<table rules="all" class="table" >
+<table rules="all" id="table">
 	<tr class="headings">
-		<td>Picture</td>
-		<td>Name</td>
-		<td>DOB and DOD</td>
-		<td>Discoveries, Theories, or Inventions</td>
-		<td>Accolades</td>
-		<td>Field of study</td>
-		<td>Influencers</td>
-		<td>Bio</td>
+		<th>Picture</th>
+		<th onclick="sortTable(1)"> Name </th>
+		<th onclick="sortTable(2)"> DOB and DOD </th>
+		<th onclick="sortTable(3)"> Discoveries, Theories, or Inventions </th>
+		<th onclick="sortTable(4)"> Accolades </th>
+		<th onclick="sortTable(5)"> Field of study </th>
+		<th onclick="sortTable(6)"> Influencers </th>
+		<th onclick="sortTable(7)"> Bio </th>
 	</tr>
 	<tr class="instance">
 		<td><img src="Newton.jpg" alt="Newton" class="scientist"></td>
-		<td><a href="./ScientistNewton.html"> Sir Isaac Newton </a></td>
-		<td>1642-1726</td>
-		<td><a href = "./Calculus.html">Calculus</a></td>
-		<td>Knighthood</td>
-		<td><a href="./fieldMathematics.html"> Mathematics </a>, <a href="./fieldPhysics.html"> Physics </a>, Astonomy </td>
-		<td>Johannes Kepler</td>
-		<td>Born in Woolsthorpe, England. Studied at University of Cambridge.</td>
+		<td><a href="./ScientistSirIsaacNewton.html"> Sir Isaac Newton </a></td>
+		<td> 1642-1726 </td>
+		<td><a href = "./theoryCalculus.html"> Calculus </a></td>
+		<td> Knighthood </td>
+		<td><a href="./fieldMathematics.html"> Mathematics</a>, <a href="./fieldPhysics.html">Physics</a>, <a href="./fieldAstronomy.html">Astronomy</a></td>
+		<td> Johannes Kepler </td>
+		<td> Born in Woolsthorpe, England. Studied at University of Cambridge. </td>
 	</tr>
 	<tr class="instance">
-		<td><img src="Darwin.png" alt="Darwin" class="scientist""></td>
-		<td><a href="./ScientistDarwin.html"> Darwin </a></td>
-		<td>1809-1882</td>
-		<td><a href = "./theoryEvolution.html">Evolution</a></td>
-		<td>Royal medal</td>
+		<td><img src="Darwin.png" alt="Darwin" class="scientist"></td>
+		<td><a href="./ScientistCharlesDarwin.html"> Charles Darwin </a></td>
+		<td> 1809-1882 </td>
+		<td><a href = "./theoryEvolution.html"> Theory of Evolution </a></td>
+		<td> Royal medal </td>
 		<td><a href="./fieldBiology.html"> Biology </a></td>
-		<td>John Herschel</td>
-		<td>Born in Shrewsbury, England. Studied at Cambridge.</td>
+		<td> John Herschel </td>
+		<td> Born in Shrewsbury, England. Studied at Cambridge. </td>
 	</tr>
 	<tr class="instance">
-		<td><img src="Einstein.jpg" alt="Einstein" class="scientist""></td>
-		<td><a href="./ScientistEinstein.html"> Albert Einstein </a></td>
-		<td>1879-1955</td>
-		<td><a href = "./theoryRelativity.html">Theory of Relativity</a></td>
-		<td>Nobel Prize in Physics.</td>
+		<td><img src="Einstein.jpg" alt="Einstein" class="scientist"></td>
+		<td><a href="./ScientistAlbertEinstein.html"> Albert Einstein </a></td>
+		<td> 1879-1955 </td>
+		<td><a href = "./theoryRelativity.html"> Theory of Relativity </a></td>
+		<td> Nobel Prize in Physics. </td>
 		<td><a href="./fieldPhysics.html"> Physics </a></td>
-		<td>Alfred Kleiner</td>
-		<td>Born in Ulm, Germany. Studied at University of Zurich.</td>
+		<td> Alfred Kleiner </td>
+		<td> Born in Ulm, Germany. Studied at University of Zurich. </td>
+	</tr>
+	<tr class="instance">
+		<td><img src="Nobel.gif" alt="Nobel" class="scientist"></td>
+		<td><a href="./ScientistAlfredNobel.html"> Alfred Nobel </a></td>
+		<td> 1833-1896 </td>
+		<td><a href="theoryDynamite.html"> Dynamite </td>
+		<td> The Monument to Alfred Nobel. </td>
+		<td><a href="./fieldChemistry.html"> Chemistry </a></td>
+		<td> Immanuel Nobel </td>
+		<td> Born in Stockholm, Sweden. Studied with Nikolai Zinin. </td>
+	</tr>
+	<tr class="instance">
+		<td><img src="alan-turing.jpg" alt="Turing" class="scientist"></td>
+		<td><a href="./ScientistAlanTuring.html"> Alan Turing </a></td>
+		<td> 1912-1954 </td>
+		<td> Turing Test </td>
+		<td> Smith's Prize. Fellow of the Royal Society. </td>
+		<td><a href="./fieldComputerScience.html"> Computer Science </a></td>
+		<td> Alonzo Church. </td>
+		<td> Born in London, England. Studied at King's College, Cambridge. </td>
+	</tr>
+	<tr class="instance">
+ 		<td><img src="Galileo.jpg" alt="Galileo" class="scientist"></td>
+ 		<td><a href="./ScientistGalileo.html"> Galileo </td>
+ 		<td> 1564-1642 </td>
+ 		<td> Telescope. Heliocentric solarsystem. </td>
+ 		<td> Honorary degree from Jesuit college in Rome. </td>
+ 		<td><a href="./fieldAstronomy.html"> Astronomy </td>
+ 		<td> Johannes Kepler. Nicolaus Copernicus. </td>
+ 		<td> Born in Pisa, Italy. Studied at University of Pisa. </td>
 	</tr>
 </table>
 </div>

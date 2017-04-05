@@ -1,20 +1,25 @@
 <!DOCTYPE html>
+<div class="myhtml">
 <html>
+
 <head>
 	<title> Scientific Fields </title>
-  	<link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
-  	<script type="text/javascript" src="./sort.js"></script>
+  	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+    <script type="text/javascript" src="./sort.js"></script>
 </head>
 
 
 <body>
+
 <div class="center">
+<h1> Scientific Fields </h1>
 
-<div>
-<h1 class="title"> Scientific Fields </h1>
-</div>
 
-<div id="navbar">
+<div class="mynavbar">
 	  <a href="./index.html"> Home </a> 
 	  <a href="./about.html"> About </a> 
 	  <a href="./fields.html"> Scientific Fields </a> 
@@ -24,15 +29,15 @@
 
 
 </div>
-<table rules="all" id="table">
-	<tr class="headings">
-		<th onclick="sortTable(0)"> Field </th>
-		<th onclick="sortTable(1)"> Description </th>
-		<th onclick="sortTable(2)"> History/Origin </th>
-		<th onclick="sortTable(3)"> Subfields </th>
-		<th onclick="sortTable(4)"> Impacts/Applications </th>
-		<th onclick="sortTable(5)"> Recent Discoveries </th>
-		<th onclick="sortTable(6)"> Prominent Scientists </th>
+<table rules="all" class="mytable">
+	<tr>
+		<th onclick="sortTable(0)" class="myheadings"> Field </th>
+		<th onclick="sortTable(1)" class="myheadings"> Description </th>
+		<th onclick="sortTable(2)" class="myheadings"> History/Origin </th>
+		<th onclick="sortTable(3)" class="myheadings"> Subfields </th>
+		<th onclick="sortTable(4)" class="myheadings"> Impacts/Applications </th>
+		<th onclick="sortTable(5)" class="myheadings"> Recent Discoveries </th>
+		<th onclick="sortTable(6)" class="myheadings"> Prominent Scientists </th>
 	</tr>
 	<tr class="instance">
 		<td><a href = "./fieldPhysics.html"> Physics </a></td>
@@ -91,3 +96,4 @@
 </table>
 </body>
 </html>
+</div>

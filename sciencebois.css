@@ -139,5 +139,31 @@ a:visited {
 .myimage {
 	position: relative;
 	top: 40px;
+}	
+div.pager {
+    
+	letter-spacing: 5px;
+    margin: 1em 0;
 }
+
+div.pager span {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+	letter-spacing: 5px;
+    
+    cursor: pointer;
+    background: #5a5a5b;
+    color: white;
+    margin-right: 0.5em;
+}
+
+div.pager span.active {
+    background: #efeff4;
+	color: black;
+	letter-spacing: 5px;
+}
+
+
 

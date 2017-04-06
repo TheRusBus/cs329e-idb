@@ -10,6 +10,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
     <script type="text/javascript" src="./sort.js"></script>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="./sort.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 </head>
 
 
@@ -28,8 +32,9 @@
 </div>
 </div>
 
-<table rules="all" class="mytable" id="table">
+<table rules="all" class="paginated" id="table">
 	<tr>
+		<thead>
 		<th>Picture</th>
 		<th onclick="sortTable(1)" class = "myheadings"> Name </th>
 		<th onclick="sortTable(2)" class = "myheadings"> DOB and DOD </th>
@@ -38,6 +43,7 @@
 		<th onclick="sortTable(5)" class = "myheadings"> Field of study </th>
 		<th onclick="sortTable(6)" class = "myheadings"> Influencers </th>
 		<th onclick="sortTable(7)" class = "myheadings"> Bio </th>
+		</thead>
 	</tr>
 	<tr class="instance">
 		<td><img src="Newton.jpg" alt="Newton" class="scientist"></td>

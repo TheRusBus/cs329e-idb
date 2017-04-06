@@ -1,6 +1,5 @@
 .myhtml {
 	background-color: #1c1c1e;
-	position:absolute;
 	color: #f4efef;
 	font-family: Arial;
 }
@@ -31,10 +30,11 @@ a:visited {
 
 
 .center {
-    margin: auto;
+	margin: auto;
     padding: 10px;
     text-align: center;
 }
+
 .scientist {
 	width: 150px;
 	height: 150px;
@@ -88,46 +88,8 @@ a:visited {
 
 
 
-.memb1 {
-	padding-left: 300px;
-	width: 20%;
-	float: left;
-	min-width: 300px;
-
-}
-
-.memb2 {
-	padding-right: 150px;
-	width: 30%;
-	float: right;
-	min-width: 300px;
-}
-
-.memb3 {
-	padding-left: 300px;
-	width: 55%;
-	float: left;
-	min-width: 300px;
-}
-
-.memb4 {
-	padding-right: 150px;
-	width: 30%;
-	float: right;
-	min-width: 300px;
-}
-
-.memb5 {
-	padding-left: 300px;
-	width: 20%;
-	float: left;
-	min-width: 300px;
-
-} 
-
 .st {
-	position: absolute;
-	padding-top: 1600px;
+	padding-top: 50px;
 	padding-left: 200px;
 }
 
@@ -140,4 +102,5 @@ a:visited {
 	position: relative;
 	top: 40px;
 }
+
 

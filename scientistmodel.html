@@ -32,6 +32,7 @@
 </div>
 </div>
 
+<div  class="mytable">
 <table rules="all" class="paginated" id="table">
 	<tr>
 		<thead>
@@ -97,15 +98,17 @@
 	</tr>
 	<tr class="instance">
  		<td><img src="Galileo.jpg" alt="Galileo" class="scientist"></td>
- 		<td><a href="./ScientistGalileo.html"> Galileo Galilei</td>
+ 		<td><a href="./ScientistGalileo.html"> Galileo Galilei </a></td>
  		<td> 1564-1642 </td>
  		<td> Telescope; <a href="./theoryHelio.html">Heliocentric solarsystem</a></td>
  		<td> Honorary degree from Jesuit college in Rome. </td>
- 		<td><a href="./fieldAstronomy.html"> Astronomy </td>
+ 		<td><a href="./fieldAstronomy.html"> Astronomy </a></td>
  		<td> Johannes Kepler. Nicolaus Copernicus. </td>
  		<td> Born in Pisa, Italy. Studied at University of Pisa. </td>
 	</tr>
 </table>
+</div>
+
 <script>$('table.paginated').each(function() {
     var currentPage = 0;
     var numPerPage = 3;
@@ -128,6 +131,7 @@
     }
     $pager.insertBefore($table).find('span.page-number:first').addClass('active');
 });</script>
+
 </body>
 </html>
 </div>

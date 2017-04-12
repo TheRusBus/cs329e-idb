@@ -5,15 +5,17 @@
 <head>
 	<title> Scientific Fields </title>
 
- 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" title="basic style" type="text/css" href="./sciencebois.css" media="all"/>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
     <script type="text/javascript" src="./sort.js"></script>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 </head>
+
 
 
 <body>
@@ -35,8 +37,8 @@
 
 <div  class="mytable">
 <table rules="all" class="paginated" id="table">
-	<tr>
 	<thead>
+	  <tr>
 		<th onclick="sortTable(0)" class="myheadings"> Field </th>
 		<th onclick="sortTable(1)" class="myheadings"> Description </th>
 		<th onclick="sortTable(2)" class="myheadings"> History/Origin </th>
@@ -44,8 +46,8 @@
 		<th onclick="sortTable(4)" class="myheadings"> Impacts/Applications </th>
 		<th onclick="sortTable(5)" class="myheadings"> Recent Discoveries </th>
 		<th onclick="sortTable(6)" class="myheadings"> Prominent Scientists </th>
+	  </tr>
 	</thead>
-	</tr>
 	<tr class="instance">
 		<td><a href = "./fieldPhysics.html"> Physics </a></td>
 		<td> The study of matter and its motion and behavior. </td>

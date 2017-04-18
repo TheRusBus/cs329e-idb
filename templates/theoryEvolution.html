@@ -14,27 +14,27 @@
 <body>
 <div class="center">
 	<h1>Theory of Evolution</h1>	
-	<div class = "mynavbar">
-		<a href="./index.html"> Home </a> 
-		<a href="./about.html"> About </a> 
-		<a href="./fields.html"> Scientific Fields </a> 
-		<a href="./scientistmodel.html"> Scientists </a> 
-		<a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+	<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>	
 
 	
 	
 	<div>
 		<p>
-			The theory of evolution by natural selection, first formulated in <a href = "./ScientistCharlesDarwin.html">Charles Darwin</a>'s book "On the Origin of Species" in 1859, 
+			The theory of evolution by natural selection, first formulated in <a href = {{url_for('ScientistCharlesDarwin')}}>Charles Darwin</a>'s book "On the Origin of Species" in 1859, 
 			is the process by which organisms change over time as a result of changes in heritable physical or behavioral traits. 
 			Changes that allow an organism to better adapt to its environment will help it survive and have more offspring.
 		</p>
 		
 		<p>
 			Evolution by natural selection is one of the best substantiated theories in the history of science, 
-			supported by evidence from a wide variety of scientific disciplines, including paleontology, geology, genetics and developmental <a href = "./fieldBiology.html">biology</a>.
+			supported by evidence from a wide variety of scientific disciplines, including paleontology, geology, genetics and developmental <a href = {{url_for('fieldBiology')}}>biology</a>.
 			The theory has two main points, said Brian Richmond, curator of human origins at the American Museum of Natural History in New York City. 
 			"All life on Earth is connected and related to each other," and this diversity of life is a product of "modifications of populations by natural selection, 
 			where some traits were favored in and environment over others," he said.
@@ -76,7 +76,7 @@
 		</p>
 		
 		<p>
-			Take the example of whales — using evolution as their guide and knowing how natural selection works, biologists knew that the transition of early whales from land to water occurred in a series of predictable steps. 
+			Take the example of whales using evolution as their guide and knowing how natural selection works, biologists knew that the transition of early whales from land to water occurred in a series of predictable steps. 
 			The evolution of the blowhole, for example, might have happened in the following way:
 			Random genetic changes resulted in at least one whale having its nostrils placed farther back on its head. Those animals with this adaptation would have been better suited to a marine lifestyle, since they would not have had to completely surface to breathe. 
 			Such animals would have been more successful and had more offspring. In later generations, more genetic changes occurred, moving the nose farther back on the head.
@@ -95,7 +95,7 @@
 	<div>
 		<h3>Modern Understanding</h3>
 		<p>
-			Darwin didn't know anything about genetics, Pobiner said. "He observed the pattern of evolution, but he didn’t really know about the mechanism." 
+			Darwin didn't know anything about genetics, Pobiner said. "He observed the pattern of evolution, but he didn't really know about the mechanism." 
 			That came later, with the discovery of how genes encode different biological or behavioral traits, and how genes are passed down from parents to offspring. 
 			The incorporation of genetics and Darwin's theory is known as "modern evolutionary synthesis."
 			The physical and behavioral changes that make natural selection possible happen at the level of DNA and genes. 

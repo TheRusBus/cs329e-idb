@@ -15,12 +15,12 @@
 <div class="center">
 	<h1>Calculus</h1>
 	<div class="mynavbar">
-		<a href="./index.html"> Home </a> 
-		<a href="./about.html"> About </a> 
-		<a href="./fields.html"> Scientific Fields </a> 
-		<a href="./scientistmodel.html"> Scientists </a> 
-		<a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>
 
 
@@ -39,7 +39,7 @@
 		<p>
 			The ancient period introduced some of the ideas that led to integral calculus, but does not seem to have developed these ideas in a rigorous and systematic way.
 			Calculations of volume and area, one goal of integral calculus, can be found in the Egyptian Moscow papyrus (13th dynasty, c.1820 BC), but the formulas are simple instructions, with no indication as to method, and some of them lack major components.
-			From the age of Greek <a href = "./fieldMathematics.html">mathematics</a>, Eudoxus (c.408–355 BC) used the method of exhaustion, which foreshadows the concept of the limit, to calculate areas and volumes, while Archimedes (c.287–212 BC) developed this idea further, inventing heuristics which resemble the methods of integral calculus. 
+			From the age of Greek <a href = {{url_for('fieldMathematics')}}>mathematics</a>, Eudoxus (c.408-355 BC) used the method of exhaustion, which foreshadows the concept of the limit, to calculate areas and volumes, while Archimedes (c.287-212 BC) developed this idea further, inventing heuristics which resemble the methods of integral calculus. 
 			The method of exhaustion was later discovered independently in China by Liu Hui in the 3rd century AD in order to find the area of a circle. In the 5th century AD, Zu Gengzhi, son of Zu Chongzhi, established a method that would later be called Cavalieri's principle to find the volume of a sphere.
 		</p>
 		
@@ -61,7 +61,7 @@
 		</p>
 		
 		<p>
-			The product rule and chain rule, the notion of higher derivatives, Taylor series, and analytical functions were introduced by <a href = "./ScientistSirIsaacNewton.html">Isaac Newton</a> in an idiosyncratic notation which he used to solve problems of mathematical physics.
+			The product rule and chain rule, the notion of higher derivatives, Taylor series, and analytical functions were introduced by <a href = {{url_for('ScientistSirIsaacNewton')}}>Isaac Newton</a> in an idiosyncratic notation which he used to solve problems of mathematical physics.
 			In his works, Newton rephrased his ideas to suit the mathematical idiom of the time, replacing calculations with infinitesimals by equivalent geometrical arguments which were considered beyond reproach. 
 			He used the methods of calculus to solve the problem of planetary motion, the shape of the surface of a rotating fluid, the oblateness of the earth, the motion of a weight sliding on a cycloid, and many other problems discussed in his Principia Mathematica (1687).
 			In other work, he developed series expansions for functions, including fractional and irrational powers, and it was clear that he understood the principles of the Taylor series. 

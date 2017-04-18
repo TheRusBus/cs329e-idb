@@ -16,11 +16,11 @@
 <h2> Turing </h2>
 
 <div class="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+	<a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 </div>
 
@@ -34,11 +34,11 @@
 London, England?died June 7, 1954, Wilmslow, Cheshire), British
 mathematician and logician, who made major contributions to
 mathematics, cryptanalysis, logic, philosophy, and mathematical
-biology and also to the new areas later named <a href="fieldComputerScience.html">computer science</a>,
+biology and also to the new areas later named <a href={{url_for('fieldComputerScience')}}>computer science</a>,
 cognitive science, artificial intelligence, and artificial life.
 	</p>
 	<h3>
-	Relation to <a href="./theoryTuring.html">Turing Test</a>
+	Relation to <a href={{url_for('theoryTuring')}}>Turing Test</a>
 	</h3>
 	<p>
 	Researchers in the United Kingdom had been exploring "machine

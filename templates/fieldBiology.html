@@ -15,12 +15,12 @@
 <div class="center">
 	<h1>Biology</h1>	
 	<div class="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+	<a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>
 
 
@@ -66,11 +66,11 @@
 		evolutionary theories of both Lamarck and Darwin.
         </p>
         <p>
-        Serious evolutionary thinking originated with the works of Jean-Baptiste Lamarck, who was the first to present a coherent theory of <a href = "./theoryEvolution.html">evolution</a>. 
+        Serious evolutionary thinking originated with the works of Jean-Baptiste Lamarck, who was the first to present a coherent theory of <a href = {{url_for('theoryEvolution')}}>evolution</a>. 
         He posited that evolution was the result of environmental stress on properties of animals, meaning that the more frequently and rigorously 
         an organ was used, the more complex and efficient it would become, thus adapting the animal to its environment. Lamarck believed that these 
         acquired traits could then be passed on to the animal's offspring, who would further develop and perfect them. However, it was the British 
-        naturalist <a href = "./ScientistCharlesDarwin.html">Charles Darwin</a>, combining the biogeographical approach of Humboldt, the uniformitarian geology of Lyell, Malthus's writings on 
+        naturalist <a href = {{url_for('ScientistCharlesDarwin')}}>Charles Darwin</a>, combining the biogeographical approach of Humboldt, the uniformitarian geology of Lyell, Malthus's writings on 
         population growth, and his own morphological expertise and extensive natural observations, who forged a more successful evolutionary theory 
         based on natural selection; similar reasoning and evidence led Alfred Russel Wallace to independently reach the same conclusions. Although 
         it was the subject of controversy (which continues to this day), Darwin's theory quickly spread through the scientific community and soon 

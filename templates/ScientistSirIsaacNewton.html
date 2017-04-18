@@ -16,11 +16,11 @@
 <h2> Newton </h2>
 
 <div class="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 </div>
 
@@ -37,15 +37,15 @@ century. In optics, his discovery of the composition of white
 light integrated the phenomena of colours into the science of
 light and laid the foundation for modern physical optics. In
 mechanics, his three laws of motion, the basic principles of
-modern <a href = "./fieldPhysics.html">physics</a>, resulted in the formulation of the law of
-universal gravitation. In <a href = "./fieldMathematics.html">mathematics</a>, he was the original
-discoverer of the infinitesimal <a href = "./theoryCalculus.html">calculus</a>. Newton's Philosophiae
+modern <a href = {{url_for('fieldPhysics')}}>physics</a>, resulted in the formulation of the law of
+universal gravitation. In <a href = {{url_for('fieldMathematics')}}>mathematics</a>, he was the original
+discoverer of the infinitesimal <a href = {{url_for('theoryCalculus')}}>calculus</a>. Newton's Philosophiae
 Naturalis Principia Mathematica (Mathematical Principles of
 Natural Philosophy, 1687) was one of the most important single
 works in the history of modern science.
 </p>
 	<h3>
-	Relation to <a href="./theoryCalculus.html"> Calculus </a>
+	Relation to <a href={{url_for('theoryCalculus')}}> Calculus </a>
 	</h3>
 	<p>
 	Over two miraculous years, during the time of the Great Plague

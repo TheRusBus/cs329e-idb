@@ -14,20 +14,20 @@
 <body>
 <div class="center">
 	<h1>Turing Test</h1>	
-	<div class = "mynavbar">
-		<a href="./index.html"> Home </a> 
-		<a href="./about.html"> About </a> 
-		<a href="./fields.html"> Scientific Fields </a> 
-		<a href="./scientistmodel.html"> Scientists </a> 
-		<a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+	<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>	
 
 	
 	
 	<div>
 		<p>
-			The Turing test is a test, developed by <a href="./ScientistAlanTuring.html" >Alan Turing</a> in 1950, of a machine's ability to exhibit intelligent behaviour equivalent to, or indistinguishable from, that of a human.
+			The Turing test is a test, developed by <a href={{url_for('ScientistAlanTuring')}} >Alan Turing</a> in 1950, of a machine's ability to exhibit intelligent behaviour equivalent to, or indistinguishable from, that of a human.
 			Turing proposed that a human evaluator would judge natural language conversations between a human and a machine that is designed to generate human-like responses.
 			The evaluator would be aware that one of the two partners in conversation is a machine, and all participants would be separated from one another.
 			The conversation would be limited to a text-only channel such as a computer keyboard and screen so that the result would not be dependent on the machine's ability to render words as speech.

@@ -13,13 +13,13 @@
 <body>
 <div class="center">
 	<h1>Dynamite</h1>	
-	<div class = "mynavbar">
-		<a href="./index.html"> Home </a> 
-		<a href="./about.html"> About </a> 
-		<a href="./fields.html"> Scientific Fields </a> 
-		<a href="./scientistmodel.html"> Scientists </a> 
-		<a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+	<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>	
 
 	
@@ -27,7 +27,7 @@
 	<div>
 		<p>
 			Dynamite is an explosive made of nitroglycerin, sorbents (such as powdered shells or clay) and stabilizers.
-			It was invented by the Swedish chemist and engineer <a href="./ScientistAlfredNobel.html">Alfred Nobel</a> in Geesthacht, and patented in 1867.
+			It was invented by the Swedish chemist and engineer <a href={{url_for('ScientistAlfredNobel')}}>Alfred Nobel</a> in Geesthacht, and patented in 1867.
 			It rapidly gained wide-scale use as a safer alternative to gun powder and nitroglycerin.
 		</p>
 		

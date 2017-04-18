@@ -18,12 +18,12 @@
 <h2> Einstein </h2>
 
 
-<div class = "mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 </div>
 
@@ -35,13 +35,13 @@
 	Albert Einstein, (born March 14, 1879, Ulm, Wurttemberg,
 Germany died April 18, 1955, Princeton, New Jersey, U.S.),
 German-born physicist who developed the special and general
-theories of <a href = "./theoryRelativity.html">relativity</a> and won the Nobel Prize for <a href = "./fieldPhysics.html">Physics</a> in
+theories of <a href = {{url_for('theoryRelativity')}}>relativity</a> and won the Nobel Prize for <a href = {{url_for('fieldPhysics')}}>Physics</a> in
 1921 for his explanation of the photoelectric effect. Einstein
 is generally considered the most influential physicist of the
 20th century.
 </p>
 	<h3>
-	Relation to <a href="./theoryRelativity.html"> Theory of Relativity </a> 
+	Relation to <a href={{url_for('theoryRelativity')}}> Theory of Relativity </a> 
 	</h3>
 <p>
 As Einstein later said, the reason for the development of

@@ -13,13 +13,13 @@
 <body>
 <div class="center">
 	<h1>Heliocentric Model</h1>	
-	<div class = "mynavbar">
-		<a href="./index.html"> Home </a> 
-		<a href="./about.html"> About </a> 
-		<a href="./fields.html"> Scientific Fields </a> 
-		<a href="./scientistmodel.html"> Scientists </a> 
-		<a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+	<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>	
 
 	
@@ -32,7 +32,7 @@
         </p>
 		<p>
      		It was not until the 16th century that a geometric mathematical model of a heliocentric system was presented, by the Renaissance mathematician, astronomer, and Catholic cleric Nicolaus Copernicus, leading to the Copernican Revolution.
-			In the following century, Johannes Kepler elaborated upon and expanded this model to include elliptical orbits, and <a href="./ScientistGalileo.html">Galileo Galilei</a> presented supporting observations made using a telescope.
+			In the following century, Johannes Kepler elaborated upon and expanded this model to include elliptical orbits, and <a href={{url_for('ScientistGalileo')}}>Galileo Galilei</a> presented supporting observations made using a telescope.
 		</p>
 	</div>
 	

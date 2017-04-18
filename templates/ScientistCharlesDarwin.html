@@ -15,12 +15,12 @@
 
 <h2> Darwin </h2>
 
-<div class = "mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 </div>
 
@@ -32,11 +32,11 @@
 	Charles Darwin, in full Charles Robert Darwin (born February 12,
 1809, Shrewsbury, Shropshire, England?died April 19, 1882,
 Downe, Kent), English naturalist whose scientific theory of
-<a href = "./theoryEvolution.html">evolution</a> by natural selection became the foundation of modern
+<a href = {{url_for('theoryEvolution')}}>evolution</a> by natural selection became the foundation of modern
 evolutionary studies. An affable country gentleman, Darwin at
 first shocked religious Victorian society by suggesting that
 animals and humans shared a common ancestry. However, his
-nonreligious <a href = "./fieldBiology.html">biology</a> appealed to the rising class of
+nonreligious <a href = {{url_for('fieldBiology')}}>biology</a> appealed to the rising class of
 professional scientists, and by the time of his death
 evolutionary imagery had spread through all of science,
 literature, and politics. Darwin, himself an agnostic, was
@@ -44,7 +44,7 @@ accorded the ultimate British accolade of burial in Westminster
 Abbey, London.
 </p>
 	<h3>
-	Relation to <a href="./theoryEvolution.html"> Theory of Evolution </a>
+	Relation to <a href={{url_for('theoryEvolution')}}> Theory of Evolution </a>
 	</h3>
 <p>
 The crucial break from the concept of constant typological

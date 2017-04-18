@@ -23,12 +23,12 @@
 <h1> Scientists </h1>
 
 
-<div class ="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+<div class="mynavbar">
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 </div>
 
@@ -48,61 +48,61 @@
 	</thead>
 	<tr class="instance">
 		<td><img src="../static/images/Newton.jpg" alt="Newton" class="scientist"></td>
-		<td><a href="./ScientistSirIsaacNewton.html"> Sir Isaac Newton </a></td>
+		<td><a href={{url_for('ScientistSirIsaacNewton')}}> Sir Isaac Newton </a></td>
 		<td> 1642-1726 </td>
-		<td><a href = "./theoryCalculus.html"> Calculus </a></td>
+		<td><a href = {{url_for('theoryCalculus')}}> Calculus </a></td>
 		<td> Knighthood </td>
-		<td><a href="./fieldMathematics.html"> Mathematics</a>, <a href="./fieldPhysics.html">Physics</a>, <a href="./fieldAstronomy.html">Astronomy</a></td>
+		<td><a href={{url_for('fieldMathematics')}}> Mathematics</a>, <a href={{url_for('fieldPhysics')}}>Physics</a>, <a href={{url_for('fieldAstronomy')}}>Astronomy</a></td>
 		<td> Johannes Kepler </td>
 		<td> Born in Woolsthorpe, England. Studied at University of Cambridge. </td>
 	</tr>
 	<tr class="instance">
 		<td><img src="../static/images/Darwin.png" alt="Darwin" class="scientist"></td>
-		<td><a href="./ScientistCharlesDarwin.html"> Charles Darwin </a></td>
+		<td><a href={{url_for('ScientistCharlesDarwin')}}> Charles Darwin </a></td>
 		<td> 1809-1882 </td>
-		<td><a href = "./theoryEvolution.html"> Theory of Evolution </a></td>
+		<td><a href = {{url_for('theoryEvolution')}}> Theory of Evolution </a></td>
 		<td> Royal medal </td>
-		<td><a href="./fieldBiology.html"> Biology </a></td>
+		<td><a href={{url_for('fieldBiology')}}> Biology </a></td>
 		<td> John Herschel </td>
 		<td> Born in Shrewsbury, England. Studied at Cambridge. </td>
 	</tr>
 	<tr class="instance">
 		<td><img src="../static/images/Einstein.jpg" alt="Einstein" class="scientist"></td>
-		<td><a href="./ScientistAlbertEinstein.html"> Albert Einstein </a></td>
+		<td><a href={{url_for('ScientistAlbertEinstein')}}> Albert Einstein </a></td>
 		<td> 1879-1955 </td>
-		<td><a href = "./theoryRelativity.html"> Theory of Relativity </a></td>
+		<td><a href = {{url_for('theoryRelativity')}}> Theory of Relativity </a></td>
 		<td> Nobel Prize in Physics. </td>
-		<td><a href="./fieldPhysics.html"> Physics </a></td>
+		<td><a href={{url_for('fieldPhysics')}}> Physics </a></td>
 		<td> Alfred Kleiner </td>
 		<td> Born in Ulm, Germany. Studied at University of Zurich. </td>
 	</tr>
 	<tr class="instance">
 		<td><img src="../static/images/Nobel.gif" alt="Nobel" class="scientist"></td>
-		<td><a href="./ScientistAlfredNobel.html"> Alfred Nobel </a></td>
+		<td><a href={{url_for('ScientistAlfredNobel')}}> Alfred Nobel </a></td>
 		<td> 1833-1896 </td>
-		<td><a href="theoryDynamite.html"> Dynamite </a></td>
+		<td><a href={{url_for('theoryDynamite')}}> Dynamite </a></td>
 		<td> The Monument to Alfred Nobel. </td>
-		<td><a href="./fieldChemistry.html"> Chemistry </a></td>
+		<td><a href={{url_for('fieldChemistry')}}> Chemistry </a></td>
 		<td> Immanuel Nobel </td>
 		<td> Born in Stockholm, Sweden. Studied with Nikolai Zinin. </td>
 	</tr>
 	<tr class="instance">
-		<td><img src="alan-turing.jpg" alt="Turing" class="scientist"></td>
-		<td><a href="./ScientistAlanTuring.html"> Alan Turing </a></td>
+		<td><img src="../static/images/alan-turing.jpg" alt="Turing" class="scientist"></td>
+		<td><a href={{url_for('ScientistAlanTuring')}}> Alan Turing </a></td>
 		<td> 1912-1954 </td>
-		<td><a href="./theoryDynamite.html"> Turing Test </a></td>
+		<td><a href={{url_for('theoryDynamite')}}> Turing Test </a></td>
 		<td> Smith's Prize. Fellow of the Royal Society. </td>
-		<td><a href="./fieldComputerScience.html"> Computer Science </a></td>
+		<td><a href={{url_for('fieldComputerScience')}}> Computer Science </a></td>
 		<td> Alonzo Church. </td>
 		<td> Born in London, England. Studied at King's College, Cambridge. </td>
 	</tr>
 	<tr class="instance">
  		<td><img src="../static/images/Galileo.jpg" alt="Galileo" class="scientist"></td>
- 		<td><a href="./ScientistGalileo.html"> Galileo Galilei </a></td>
+ 		<td><a href={{url_for('ScientistGalileo')}}> Galileo Galilei </a></td>
  		<td> 1564-1642 </td>
- 		<td> Telescope; <a href="./theoryHelio.html">Heliocentric solarsystem</a></td>
+ 		<td> Telescope; <a href={{url_for('theoryHelio')}}>Heliocentric solarsystem</a></td>
  		<td> Honorary degree from Jesuit college in Rome. </td>
- 		<td><a href="./fieldAstronomy.html"> Astronomy </a></td>
+ 		<td><a href={{url_for('fieldAstronomy')}}> Astronomy </a></td>
  		<td> Johannes Kepler. Nicolaus Copernicus. </td>
  		<td> Born in Pisa, Italy. Studied at University of Pisa. </td>
 	</tr>

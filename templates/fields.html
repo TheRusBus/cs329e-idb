@@ -25,11 +25,11 @@
 
 
 <div class="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 
 
@@ -49,58 +49,58 @@
 	  </tr>
 	</thead>
 	<tr class="instance">
-		<td><a href = "./fieldPhysics.html"> Physics </a></td>
+		<td><a href = {{url_for('fieldPhysics')}}> Physics </a></td>
 		<td> The study of matter and its motion and behavior. </td>
 		<td> Dates back to ancient times. Formal study began in the 16th century. </td>
-		<td> Classical Mechanics, Electrodynamics, Optics, Acoustics, Quantum Mechanics, <a href = "./theoryRelativity.html">Relativity</a> </td>
+		<td> Classical Mechanics, Electrodynamics, Optics, Acoustics, Quantum Mechanics, <a href = {{url_for('theoryRelativity')}}>Relativity</a> </td>
 		<td> Often motivates creation of new mathematics, and is used for the development of new technologies. </td>
 		<td> Gravitational waves, the Higgs Boson </td>
-		<td><a href = "./ScientistAlbertEinstein.html"> Albert Einstein</a>, Erwin Schrodinger, <a href = "./ScientistSirIsaacNewton.html">Isaac Newton </a></td>
+		<td><a href = {{url_for('ScientistAlbertEinstein')}}> Albert Einstein</a>, Erwin Schrodinger, <a href = {{url_for('ScientistSirIsaacNewton')}}>Isaac Newton </a></td>
 	</tr>
 	<tr class="instance">
-		<td><a href = "./fieldMathematics.html"> Mathematics </a></td>
+		<td><a href = {{url_for('fieldMathematics')}}> Mathematics </a></td>
 		<td> A broad-ranging field of study in which the properties and interactions of idealized objects are examined. </td>
 		<td> Dates back to ancient times. The progress of the field can be viewed as an ever increasing series of abstractions. </td>
 		<td> Number theory, geometry, topology, analysis </td>
 		<td> Used to formalize nearly every field of science. Used to facilitate computation in all quantitative fields. </td>
 		<td> Bounded gaps between primes </td>
-		<td> Leonhard Euler, Carl Gauss, Bernhard Riemann, <a href = "./ScientistSirIsaacNewton.html">Isaac Newton </a></td>
+		<td> Leonhard Euler, Carl Gauss, Bernhard Riemann, <a href = {{url_for('ScientistSirIsaacNewton')}}>Isaac Newton </a></td>
 	</tr>
 	<tr class="instance">
-		<td><a href = "./fieldBiology.html"> Biology </a></td>
+		<td><a href = {{url_for('fieldBiology')}}> Biology </a></td>
 		<td> The study of life and organisms. </td>
 		<td> The study of botany and zoology dates back to ancient times, but formal biological study began in the 1700s. </td>
 		<td> Molecular Biology, Microbiology, Botany, Zoology, Ecology </td>
 		<td> Widely used in medicine and agriculture. </td>
 		<td> Mapping of the human genome </td>
-		<td> <a href = "./ScientistCharlesDarwin.html">Charles Darwin</a>, Gregor Mendel, Robert Hooke </td>
+		<td> <a href = {{url_for('ScientistCharlesDarwin')}}>Charles Darwin</a>, Gregor Mendel, Robert Hooke </td>
 	</tr>
 	<tr class="instance">
-		<td><a href = "./fieldChemistry.html"> Chemistry </a></td>
+		<td><a href = {{url_for('fieldChemistry')}}> Chemistry </a></td>
 		<td> The study of atoms and how they form compunds. </td>
 		<td> Dates back to ancient times in the form of alchemy. Formal study began in the 1600s. </td>
 		<td> Biochemistry, Organic Chemistry, Inorganic Chemistry, Physical Chemistry </td>
 		<td> Widely used in medicine and agriculture. Used to develop new materials and chemicals. </td>
 		<td> New food preservation options, titanium dioxide coating that reduces air pollution </td>
-		<td> Dimitri Mendeleev, Marie Curie, John Dalton, <a href = "./ScientistAlfredNobel.html">Alfred Nobel </a></td>
+		<td> Dimitri Mendeleev, Marie Curie, John Dalton, <a href = {{url_for('ScientistAlfredNobel')}}>Alfred Nobel </a></td>
 	</tr>
 	<tr class="instance">
-		<td><a href = "./fieldAstronomy.html"> Astronomy </a></td>
+		<td><a href = {{url_for('fieldAstronomy')}}> Astronomy </a></td>
 		<td> The study of celestial objects and phenomena. </td>
 		<td> The study of astronomy dates back ancient times, and it is often considered the oldest science. </td>
 		<td> Planetary Science, Stellar Astronomy, Cosmology </td>
 		<td> Advances in astronomical techniques often lead to new technologies. Used to calculate location and dates. </td>
 		<td> Discovery of gravitational waves and Earth-like planets. </td>
-		<td> <a href = "./ScientistSirIsaacNewton.html">Isaac Newton</a>, <a href = "./ScientistGalileo.html">Galileo Galilei</a>, Nicolaus Copernicus, Johannes Kepler </td>
+		<td> <a href = {{url_for('ScientistSirIsaacNewton')}}>Isaac Newton</a>, <a href = {{url_for('ScientistGalileo')}}>Galileo Galilei</a>, Nicolaus Copernicus, Johannes Kepler </td>
 	</tr>
 	<tr class="instance">
-		<td><a href = "./fieldComputerScience.html"> Computer Science </a></td>
+		<td><a href = {{url_for('fieldComputerScience')}}> Computer Science </a></td>
 		<td> The study of the principles and uses of computers. </td>
 		<td> Mechanical computation devices and programming methods originated in the 1800s. </td>
 		<td> Theory of Computation, Algorithms and Data Structures, Programming Language Theory, Computer Elements and Architecture </td>
 		<td> Advances in computation have led to new discoveries in science and have improved communication and quality of life. </td>
 		<td> Significant improvement in computer hardware and programming techniques. </td>
-		<td> <a href = "./ScientistAlanTuring.html">Alan Turing</a>, Donald Knuth </td>
+		<td> <a href = {{url_for('ScientistAlanTuring')}}>Alan Turing</a>, Donald Knuth </td>
 	</tr>
 </table>
 </div>

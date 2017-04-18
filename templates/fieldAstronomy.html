@@ -16,12 +16,12 @@
 <div class="center">
 	<h1>Astronomy</h1>
 	<div class="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+	<a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>
 	<div>
 		<p>
@@ -52,8 +52,8 @@
              model of the Universe, or the Ptolemaic system, named after Ptolemy.
         </p>
         <p>
-			During the Renaissance, Nicolaus Copernicus proposed a <a href="./theoryHelio.html">heliocentric model</a> of the solar system. His work was defended, expanded upon, 
-			and corrected by <a href="./ScientistGalileo.html">Galileo Galilei</a> and Johannes Kepler. Galileo used telescopes to enhance his observations. Kepler was the first to devise
+			During the Renaissance, Nicolaus Copernicus proposed a <a href={{ url_for("theoryHelio")}}>heliocentric model</a> of the solar system. His work was defended, expanded upon, 
+			and corrected by <a href={{url_for('ScientistGalileo')}}>Galileo Galilei</a> and Johannes Kepler. Galileo used telescopes to enhance his observations. Kepler was the first to devise
 			 a system that described correctly the details of the motion of the planets with the Sun at the center. However, Kepler did not succeed 
 			 in formulating a theory behind the laws he wrote down. It was left to Newton's invention of celestial dynamics and his law of 
 			 gravitation to finally explain the motions of the planets. Newton also developed the reflecting telescope.

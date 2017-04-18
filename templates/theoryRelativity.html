@@ -15,18 +15,18 @@
 <div class="center">
 	<h1>Theory of Relativity</h1>	
 	<div class="mynavbar">
-		<a href="./index.html"> Home </a> 
-		<a href="./about.html"> About </a> 
-		<a href="./fields.html"> Scientific Fields </a> 
-		<a href="./scientistmodel.html"> Scientists </a> 
-		<a href="./theorymodel.html"> Theories/Discoveries </a>
-	</div>
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
+</div>
 </div>	
 
 	
 	<div>
 	<p>
-		In 1905, <a href = "./ScientistAlbertEinstein.html">Albert Einstein</a> determined that the laws of <a href = "./fieldPhysics.html">physics</a> are the same for all non-accelerating observers, and that the speed of light in a vacuum was independent of the motion of all observers. 
+		In 1905, <a href = {{url_for('ScientistAlbertEinstein')}}>Albert Einstein</a> determined that the laws of <a href = {{url_for('fieldPhysics')}}>physics</a> are the same for all non-accelerating observers, and that the speed of light in a vacuum was independent of the motion of all observers. 
 		This was the theory of special relativity. It introduced a new framework for all of physics and proposed new concepts of space and time.
 		Einstein then spent 10 years trying to include acceleration in the theory and published his theory of general relativity in 1915. 
 		In it, he determined that massive objects cause a distortion in space-time, which is felt as gravity.
@@ -97,7 +97,7 @@
 		</p>
 		
 		<p>
-			A second signal was spotted on December 26 of the same year, and a third candidate was mentioned along with it. While the first two signals are almost definitively astrophysical—Gonzalez said there was less than one part in a million of them being something else—the third candidate has only an 85 percent probability of being a gravitational wave.
+			A second signal was spotted on December 26 of the same year, and a third candidate was mentioned along with it. While the first two signals are almost definitively astrophysical Gonzalez said there was less than one part in a million of them being something else the third candidate has only an 85 percent probability of being a gravitational wave.
 			Together, the two firm detections provide evidence for pairs of black holes spiraling inward and colliding. As time passes, Gonzalez anticipates that more gravitational waves will be detected by LIGO and other upcoming instruments, such as the one planned by India.
 			"We can test general relativity, and general relativity has passed the test," Gonzalez said.
 		</p>

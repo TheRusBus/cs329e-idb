@@ -16,11 +16,11 @@
 <h2> Nobel </h2>
 
 <div class="mynavbar">
-	  <a href="./index.html"> Home </a> 
-	  <a href="./about.html"> About </a> 
-	  <a href="./fields.html"> Scientific Fields </a> 
-	  <a href="./scientistmodel.html"> Scientists </a> 
-	  <a href="./theorymodel.html"> Theories/Discoveries </a>
+  <a href={{ url_for('index') }}> Home </a> 
+	<a href={{ url_for('about') }}> About </a> 
+	<a href={{ url_for('fields') }}> Scientific Fields </a> 
+	<a href={{ url_for('scientistmodel') }}> Scientists </a> 
+	<a href={{ url_for('theorymodel') }}> Theories/Discoveries </a>
 </div>
 </div>
 
@@ -40,7 +40,7 @@ also founded the Nobel Prizes.
 	Relation to Dynamite
 	</h3>
 	<p>
-	<a href="theoryDynamite.html">Dynamite</a> was invented by Alfred Nobel and was the first safely
+	<a href={{url_for('theoryDynamite')}}>Dynamite</a> was invented by Alfred Nobel and was the first safely
 manageable explosive stronger than black powder. Nobel obtained
 patents for his invention in England on 7 May 1867, in Sweden on
 19 October 1867. After its introduction, dynamite rapidly gained

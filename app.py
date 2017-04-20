@@ -100,5 +100,5 @@ def fieldPhysics():
 
 
 if __name__ == "__main__":
-	app.run()
+	app.run('174.138.78.91','80')
 
